@@ -1,5 +1,10 @@
-<h1>Hello QA</h1>
-<h1>Hello QA1</h1>
-<h1>Hello QA2</h1>
-<h1>Hello QA3</h1>
-<h1>Hello QA4</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <mate charse="UFT-8">
+  <title>Open project</title>
+</head>
+<body>
+ <h1>Prva izmena</h1>
+</body>
+</html>
