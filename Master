@@ -5,11 +5,13 @@
   <title>Open project1.1</title>
 </head>
 <body>
- <h1>Moja izmena za merge</h1>
- <h1>Druga izmena</h1>
- <h1>Treca izmena</h1>
- <h1>Cetvrta izmena</h1>
- <h1>Peta izmena</h1>
- <h1>Sesta izmena</h1>
+ <h1 >Rebase 1/h1>
+ <img src="aft1.jpg" alt="Mountain View" width="500" height="377">
+ <h2>Druga izmena</h2>
+ <h3>Treca izmena</h3>
+ <h4>Cetvrta izmena</h4>
+ <h5>Peta izmena</h5>
+ <h6>Sesta izmena</h6>
 </body>
 </html>
+
