@@ -2,10 +2,13 @@
 
 <html>
   <head>
+
+    <!--page title-->
     <title>
-      My page title
+      QA test
     </title>
 
+    <!--ovo je style za tabelu koja se nalazi u body-->
     <style>
     table {
       font-family: arial, sans-serif;
@@ -23,10 +26,12 @@
   </style>
   </head>
   <body>
-    
+    <!--ovde je link za media1 -->
       <a href="http://media1.qabadgers.com/">There is a link</a>
 
     <h1>This is a heading</h1>
+
+    <!--ovde je tabela, a style se nalazi gore u headu-->
 
     <table>HTML Table
       <tr>
@@ -61,11 +66,13 @@
         </tr>
     </table>
     
+    <!--paragraf ispod tabele-->
     <p>This is a paragraph</p>
     <p>This is another paragraph</p>
 
     <h2>This is a heading 2</h2>
 
+    <!--lista-->
     <ul>
       <li>Regression testing</li>
       <li>Load testing</li>
@@ -79,8 +86,7 @@
       <li>Load testing</li>
       <li>Smoke testing</li>
     </ol>
-
-  
+    <!--slika koja je nalazi na dnu stranice-->
     <img src="vimage.jpg" width="1000" height="200" >
    
   </body>
