@@ -5,17 +5,81 @@
     <title>
       My page title
     </title>
+
+    <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    td,th {
+      border: 1px solid #dddddd;
+      text-align: left; 
+      padding: 8px;
+    }
+    tr:nth-child(even) {
+      background-color: #dddddd 
+    }
+  </style>
   </head>
   <body>
-
+    
       <a href="http://media1.qabadgers.com/">There is a link</a>
 
     <h1>This is a heading</h1>
-    <h2>This is a heading 2</h2>
-    <h3>This is a heading 3</h3>
 
+    <table>HTML Table
+      <tr>
+        <th>Regression testing</th>
+        <th>Load testing</th>
+        <th>Smoke testing</th>
+      </tr>
+      <tr>
+        <td>Testing now</td>
+        <td>Testing now2</td>
+        <td>Testing now3</td>
+      </tr>
+      <tr>
+          <td>Testing now4</td>
+          <td>Testing now5</td>
+          <td>Testing now6</td>
+        </tr>
+        <tr>
+          <td>Testing now7</td>
+          <td>Testing now8</td>
+          <td>Testing now9</td>
+        </tr>
+        <tr>
+          <td>Testing now10</td>
+          <td>Testing now11</td>
+          <td>Testing now12</td>
+        </tr>
+        <tr>
+          <td>Testing now12</td>
+          <td>Testing now13</td>
+          <td>Testing now14</td>
+        </tr>
+    </table>
+    
     <p>This is a paragraph</p>
     <p>This is another paragraph</p>
+
+    <h2>This is a heading 2</h2>
+
+    <ul>
+      <li>Regression testing</li>
+      <li>Load testing</li>
+      <li>Smoke testing</li>
+    </ul>
+
+    <h3>This is a heading 3</h3>
+
+    <ol>
+      <li>Regression testing</li>
+      <li>Load testing</li>
+      <li>Smoke testing</li>
+    </ol>
+
   
     <img src="vimage.jpg" width="1000" height="200" >
    
