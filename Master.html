@@ -6,7 +6,7 @@
 
     <!--page title-->
     <title>
-      QA test
+      QA master
     </title>
 
     <!--ovo je style za tabelu koja se nalazi u body-->
@@ -26,15 +26,21 @@
     }
   </style> 
   </head>
-  <body>
-    <!--ovde je link za media1-->
-      <a href="http://media1.qabadgers.com/">There is a link</a>
+  <body style="background-color:gray">
+    <!--u svaki tag mozemo da stavimo style, to je u slucajevima kada ne koristimo css-->
+    <h1 style="text-align:center;color: brown;font-family: Verdana;font-size: 300%" >QA MASTER</h1>
 
-    <h1>This is a heading</h1>
-    
+    <p style="text-align:center;font-size: 130%">Do you want to test with as?</p>
+
+    <!--ovde je link za media1, target atribut otvara link u novom tabu-->
+    <div style="text-align: center">
+    <a href="http://media1.qabadgers.com/"target="_blank">There is the link, you can try it!</a>
+    </div>
     <!--ovde je tabela, a style se nalazi gore u headu, prvi red u tabeli ima tooltip koji se oznacava kao tile-->
 
-    <table>HTML Table
+    <table> 
+      <h3>HTML Table</h3>
+      &nbsp; <!--ovaj tag stvara empty space izmedju elemenata-->
       <tr>
         <th title="Do you want to regression testing?">Regression testing</th>
         <th title="Do you want to load testing?">Load testing</th>
@@ -66,12 +72,18 @@
           <td>Testing now14</td>
         </tr>
     </table>
-    
+
     <!--paragraf ispod tabele-->
-    <h1>Testing for hr</h1>
+    <h1 style="text-align: center;color: brown;font-family: Verdana;font-size: 300%"> Testinog for hr </h1>
+    <!--hr oznacava crtu ili presek izmedju dva sections-->
     <hr>
-    <p style="color:green">This is a paragraph</p>
-    <p>This is another paragraph</p>
+   
+    <!--font-family se koristi za font slova u paragrafu.headingu-->
+    <p style="color:black;font-family: Times, serif;text-align: center">Lorem ipsum dolor sit amet, <em>(eu iusto deserunt has)</em>
+       In postulant conclusionemque pri, id duo oporteat apeirian,<br> est nulla vidisse intellegat eu.<strong>Habemus deserunt</strong> democritum sed cu
+       vix sumo vide harum ex, in vocibus legendos mel. Te facilis accusam mea.</p>
+
+    <p style="font-family: Arial, Helvetica, sans-serif"> This is another paragraph </p>
 
     <h2>This is a heading 2</h2>
 
@@ -111,7 +123,7 @@
 
     <!--slika koja je nalazi na dnu stranice, alt atribut je text koji ce se pojaviti ako se slika ne ucita-->
     <img src="vimage.jpg" alt="sorry,image is broken" width="1000" height="200" >
-   
+
   </body>
 
 </html>
