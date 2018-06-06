@@ -4,37 +4,40 @@
 <head>
     <title>QA index</title>
 
-<style>
-    table{ 
-      font-family: arial, sans-serif;
-      border-collapse: collapse;
-      width: 100%;
-    }
-    td,th {
-      border: 1px solid #dddddd;
-      text-align: left; 
-      padding: 8px;
-    }
-    
-</style>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+
 </head>
 
 <body>
-    <table>It is table for me (I'm testing)
+    <h1 style="text-align: center";> Table title</h1>
+    <table style="width: 100%">
         <tr>
-            <th>test1</th>
-            <th>test2</th>
-            <th>test3</th>
+            <th>Prvi red, prva kolona</th>
+            <th>Prvi red, druga kolona</th>
+            <th>Prvi red, druga kolona</th>
             </tr>
         <tr>
-            <td>test1</td>
-            <td>test2</td>
-            <td>test3</td>
+            <td>drugi red, prva kolona</td>
+            <td colspan="2">drugi red, druga i treca kolona</td>
         </tr>
         <tr>
-            <td>test1</td>
-            <td>test2</td>
-            <td>test3</td>
+            <td>treci red, prva kolona</td>
+            <td>treci red, druga kolona</td>
+            <td>treci red, treca kolona</td>
+        </tr>
+        <tr>
+            <td rowspan="2">cetvrti i peti red, prva kolona</td>
+            <td>cetvrti red, druga kolona</td>
+            <td>cetvrti red, treca kolona</td>
+        </tr>
+        <tr>
+            <td>peti red, druga kolona</td>
+            <td>peti red, treca kolona</td>
         </tr>
     </table>
 </body>
