@@ -15,6 +15,9 @@
             border: 1px solid black;
             border-collapse: collapse;
         }
+        a:hover {
+          color: black
+        }
     </style>
   </head>
   <body style="background-color:gray">
@@ -23,9 +26,9 @@
 
     <p style="text-align:center;font-size: 130%">Do you want to test with as?</p>
 
-    <!--ovde je link za media1, target atribut otvara link u novom tabu-->
-    <div style="text-align: center">
-    <a href="./index.html"target="_blank">There is the link, you can try it!( it should open index.html file)</a>
+    <!--ovde je link index file, target atribut otvara link u novom tabu-->
+    <div title="Going to index file" style="text-align: center">
+    <a href="./index.html"target="_blank">There is the link, you can try it!</a>
     </div>
     <!--ovde je tabela, a style se nalazi gore u headu, prvi red u tabeli ima tooltip koji se oznacava kao tile-->
 
@@ -90,6 +93,10 @@
     <ul style="text-align: center">
       <li style="color:green">Regression testing</li>
       <li style="color:red">Load testing</li>
+      <ol>
+        <li>JMeter tool</li>
+        <li>OWASP zip</li>
+      </ol>
       <li style="color:darkgoldenrod">Smoke testing</li>
     </ul>
     <hr>
@@ -106,9 +113,13 @@
         est nulla vidisse intellegat eu.
     </p>
 
-    <ol style="text-align: center">
+    <ol style="text-align: center;">
       <li>Regression testing</li>
       <li>Load testing</li>
+        <ol>
+          <li>JMeter tool</li>
+          <li>OWASP zip</li>
+        </ol>
       <li>Smoke testing</li>
     </ol>
 
@@ -123,8 +134,24 @@
         Habemus deserunt democritum sed cu, vix sumo vide harum ex, in vocibus legendos mel. Te facilis accusam mea. </blockquote>
       </p>
 
-    <!--slika koja je nalazi na dnu stranice, alt atribut je text koji ce se pojaviti ako se slika ne ucita-->
-    <img src="vimage.jpg" alt="sorry,image is broken" width="100%" height="200" >
+
+      <h4 style="background-image:url('milos1.jpg');padding: 35px; color: white">
+        Lorem ipsum dolor sit amet, eu iusto deserunt has. In postulant conclusionemque pri, 
+        nulla vidisse intellegat eu. Lorem ipsum dolor sit amet<br>
+        Lorem ipsum dolor sit amet, eu iusto deserunt has. In postulant conclusionemque pri,
+        nulla vidisse intellegat eu. Lorem ipsum dolor sit amet<br>
+        In this example, the background image Lorem ipsum dolor sit amet<br>
+        Lorem ipsum dolor sit amet, eu iusto deserunt has. In postulant conclusionemque pri<br>
+        nulla vidisse intellegat eu. Lorem ipsum dolor sit amet.<br>
+        By default, the background-image Lorem ipsum dolor sit amet<br>
+        will repeat itself in the direction(s) Lorem ipsum dolor sit amet<br>
+        where it is smaller than the element Lorem ipsum dolor sit amet<br>
+        where it is specified. (Try resizing the Lorem ipsum dolor sit amet<br>
+        browser window to see how the Lorem ipsum dolor sit amet<br>
+        background image behave.
+      </h4>        
+      <!--slika koja je nalazi na dnu stranice, alt atribut je text koji ce se pojaviti ako se slika ne ucita-->
+    <img src="vimage.jpg" alt="sorry,image is broken" width="100%" height="200%">
 
   </body>
 
