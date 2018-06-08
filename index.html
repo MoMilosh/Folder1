@@ -2,39 +2,76 @@
 
 <html>
 <head>
-    <title>QA index</title>
+    <title>
+        QA index
+    </title>
 
-<style>
-    table{ 
-      font-family: arial, sans-serif;
-      border-collapse: collapse;
-      width: 100%;
-    }
-    td,th {
-      border: 1px solid #dddddd;
-      text-align: left; 
-      padding: 8px;
-    }
-    
-</style>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        h1 {
+            color: blue
+        }
+        p {
+            color:blueviolet
+        }
+    </style>
+
 </head>
 
 <body>
-    <table>It is table for me (I'm testing)
+    <!--morao sam h1 tag da stavim jer nisam mogao da centriram title u table tagu-->
+    <h1 style="text-align: center;background-color: #787878"> Table title</h1>
+    <table style="width: 100%">
         <tr>
-            <th>test1</th>
-            <th>test2</th>
-            <th>test3</th>
+            <th>Prvi red, prva kolona</th>
+            <th>Prvi red, druga kolona</th>
+            <th>Prvi red, druga kolona</th>
             </tr>
-        <tr>
-            <td>test1</td>
-            <td>test2</td>
-            <td>test3</td>
+        <tr> <!--colspan=2 postavlja dve kolone u jedan -->
+            <td>drugi red, prva kolona</td>
+            <td style="text-align= center"; colspan="2">drugi red, druga i treca kolona</td>
         </tr>
         <tr>
-            <td>test1</td>
-            <td>test2</td>
-            <td>test3</td>
+            <td>treci red, prva kolona</td>
+            <td>treci red, druga kolona</td>
+            <td>treci red, treca kolona</td>
+        </tr>
+        <tr> <!--rowspan=2 postavlja dva reda u jedan -->
+            <td rowspan="2">cetvrti i peti red, prva kolona</td>
+            <td>cetvrti red, druga kolona</td>
+            <td>cetvrti red, treca kolona</td>
+        </tr>
+        <tr>
+            <td>peti red, druga kolona</td>
+            <td>peti red, treca kolona</td>
+        </tr>
+    </table>
+    <h1 style="text-align: center;background-color:#b4b4b4">Table title 2</h1>
+    <p style="text-align: center">Paragraf</p>
+
+    <table style="width: 100%">
+        <tr>
+            <th>prvi red, prva kolona</th>
+            <th>prvi red, druga kolona</th>
+            <th>prvi red, treca kolona</th>
+        </tr>
+        <tr>
+            <td style="text-align: center">drugi red, prva kolona</td>
+            <td>drugi red, druga kolona</td>
+            <td>drugi red, treca kolona</td>
+        </tr>
+        <tr>
+            <td>treci red, prva kolona</td>
+            <td>treci red, druga kolona</td>
+            <td>treci red, treca kolona</td>
+        </tr>
+        <tr>
+            <td>cetvrti red, prva kolona</td>
+            <td>cetvrti red, druga kolona</td>
+            <td>cetvrti red, treca kolona</td>
         </tr>
     </table>
 </body>
