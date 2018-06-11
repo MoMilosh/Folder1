@@ -1,6 +1,7 @@
 <DOCTYPE html>
 <html>
 <head>
+    <link rel="icon" href="images/milos.jpg" type="image/jpg" sizes="16x16"></link>
     <title>
         About page
     </title>
@@ -43,6 +44,30 @@
         border: 3px solid black;
         padding: 10px;
     }
+    #id2{
+        border: 2px solid black;
+        margin: 50px;
+        padding: 1%;
+    }
+    /*ovde sam stavio 2 puta table tag za style zbog width 100% */
+    table, th, td {
+            border: 5px solid black;
+            border-collapse: collapse;
+    }
+    table{
+        width: 100%;
+    }
+    /*ovde radim multi classes, 2 klase u 1 heading tagu*/
+    .class4{
+        background: tomato;
+        color:white;
+        font-family:sans-serif; 
+        font-size: 200%;
+        padding: 1%
+    }
+    .class5{
+        text-align: center;
+    }
     </style>
 </head>
 <body>
@@ -59,9 +84,43 @@
     <div class="class3">
         <h4>This paragraf should have border and padding</h4>
     </div>
-    <div class="class4">
+    <br>
+    <div id="id2">
         <h4>This heding should have margin</h4>
         <h4>and this heding should have margin</h4>
     </div>
+    <div style="background: black; color: white;border: 15px solid red;padding:5%;">
+        <h1>Testing</h1>
+        <p>Lorem ipsum dolor sit amet, eu iusto deserunt has.<br>
+            In postulant conclusionemque pri, id duo oporteat apeirian,<br>
+            est nulla vidisse intellegat eu. Habemus deserunt democritum sed cu, <br>
+            vix sumo vide harum ex, in vocibus legendos mel. Te facilis accusam mea.
+        </p>
+    </div>  
+    <br>
+    <hr>
+    <div>>
+       <table>
+        <tr>
+            <th>testing now</th>
+            <th>testing now2</th>
+            <th>testing now3</th>
+        </tr>
+        <tr>
+            <td>testing1</td>
+            <td>testing2</td>
+            <td>testing3</td>
+        </tr>
+    </table>
+    </div>
+        <!--ovde radim multi classes, 2 klase u 1 heading tagu-->
+    <div>
+        <h5 class="class4 class5">Lorem ipsum dolor sit amet, eu iusto deserunt has.</h5>
+        <h5 class="class4">In postulant conclusionemque pri, id duo oporteat apeirian, est nulla vidisse intellegat eu.</h5>
+        <h5 class="class4">Quo putent tritani ut, id eum deleniti definiebas, vis nullam habemus facilisi ex.</h5>
+    </div>
+    <br>
+    <iframe src="https://www.w3schools.com" width="500px"></iframe>
+
 </body>
 </html>
