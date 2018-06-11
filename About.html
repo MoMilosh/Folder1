@@ -1,0 +1,67 @@
+<DOCTYPE html>
+<html>
+<head>
+    <title>
+        About page
+    </title>
+    <style>
+    body {
+        background-color: aqua;
+    }
+    /*ovde je style za sve h1 tagove*/
+    h1 {
+        color: blue;
+        text-align: center;
+        font-family: verdana;
+        font-size: 300%;
+    }
+    /*ovde je style za sve paragraf tagove*/
+    p {
+        color:brown;
+        font-family: courier;
+        font-size: 150%;
+        text-align: center;
+    }
+    /* ovde smo povezali paragraf sa clasom i tako mu zadali style za sebe, da ne zavisi 
+    od gore navedenog style za sve paragrafe*/
+    .class1 {
+        color: black;
+        text-align: left; 
+    }
+    .class2{
+        color:blue;
+        text-align:right;
+    }
+    /* ovde povezali h1 sa style sa ID-om, tako da ne zavisi od gore navedenog style za h1 tagove*/
+    #id1 {
+        color: forestgreen;
+        text-align: right;
+    }
+    /*ovo je style za class3, ima padding i border, 3px oznacava debiljinu bordera i posle toga mora da
+    stoji "solid", i black oznacava boju*/
+    .class3{
+        border: 3px solid black;
+        padding: 10px;
+    }
+    </style>
+</head>
+<body>
+    <h1>There testing CSS</h1>
+    <!--ovaj id je povezan sa stylom u headu-->
+    <h1 id="id1">This is subtitle</h1>
+    <p>Paragraf has other color</p>
+    <!--ova klasa je povezana sa style u headu-->
+    <p class="class1">This is a paragraph 1.</p>
+    <p class="class2">This is a paragraph 2.</p>
+    <p class="class1">This is a paragraph 3.</p>
+
+    <!--ovaa clasa ima padding i border i nalaze se u headu-->
+    <div class="class3">
+        <h4>This paragraf should have border and padding</h4>
+    </div>
+    <div class="class4">
+        <h4>This heding should have margin</h4>
+        <h4>and this heding should have margin</h4>
+    </div>
+</body>
+</html>
