@@ -22,18 +22,18 @@
             clear: left;
             text-align: center;
         }   
-          /*ovo je style za listu, koja izgleda kao navigation menu*/
-          ul { 
+        /*ovo je style za listu, koja izgleda kao navigation menu*/
+        nav ul { 
             list-style-type: none;
             margin: 0;
             padding: 0;
             overflow: hidden;
             background-color: #333333;
         }
-        li {
+        nav li {
             float: left;
         }
-        li a {
+        nav li a {
             display: block;
             color: white;
             text-align: center;
@@ -142,13 +142,15 @@
     </p>
 
     <!--lista, ul su kolone bez-->
-    <ul style="text-align: center">
+    <ul>
       <li style="color:green">Regression testing</li>
       <li style="color:red">Load testing</li>
-        <li><ol>
+        <li>
+          <ol>
             <li>JMeter tool</li>
             <li>OWASP zip</li>
-        </ol></li>
+          </ol>
+        </li>
       <li style="color:darkgoldenrod">Smoke testing</li>
     </ul>
     <hr>
@@ -165,7 +167,7 @@
         est nulla vidisse intellegat eu.
     </p>
 
-    <ol style="text-align: center;">
+    <ol>
       <li>Regression testing</li>
       <li>Load testing</li>
         <ol>
