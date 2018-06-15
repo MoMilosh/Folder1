@@ -4,15 +4,16 @@
 <html lang="en-US">
   <head>
     <link rel="icon" href="../images/milos.jpg" type="image/jpg" sizes="16x16"></link>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
     <!--page title-->
-    <title>
-      QA master
-    </title>
+    <title>QA master</title>
 
     <!--ovo je style za tabelu koja se nalazi u body-->
     <style>
       body {
-        margin:0;
+        margin: 0;
+        font-family: 'Ubuntu', sans-serif;
         }
         header {
             padding: 16px;
@@ -21,25 +22,24 @@
             clear: left;
             text-align: center;
         }   
-          /*ovo je style za listu, koja izgleda kao navigation menu*/
-          ul { 
+        /*ovo je style za listu, koja izgleda kao navigation menu*/
+        nav ul { 
             list-style-type: none;
             margin: 0;
             padding: 0;
             overflow: hidden;
             background-color: #333333;
         }
-        li {
+        nav li {
             float: left;
         }
-        li a {
+        nav li a {
             display: block;
             color: white;
             text-align: center;
             padding: 16px;
             text-decoration: none;
         }
-        /*ovo je style za listu, koja izgleda kao navigation menu*/
         table, th, td {
             border: 1px solid black;
             border-collapse: collapse;
@@ -75,10 +75,18 @@
     <a href="./index.html"target="_blank">There is the link, you can try it!</a>
     </div>
     <!--ovde je tabela, a style se nalazi gore u headu, prvi red u tabeli ima tooltip koji se oznacava kao tile-->
-
-    <h3>HTML Table</h3>
-    &nbsp; <!--ovaj tag stvara empty space izmedju elemenata-->
-
+    <!--margin-bottom je napravio emtpy space izmedju 2 elementa-->
+    <h3 style="margin-bottom: 50px">HTML Table</h3>
+    <!--padding=15 gore, 6 desno, 3 dole, 35 levo-->
+    <div style="padding: 15px 6px 3px 35px; 
+                border: 15px solid black;
+                border-bottom-color: aqua;
+                background-color: green;
+                margin: 10px 4px 30px 12px;
+                "> 
+    <!--dispaly block - stavlja tag u jedan red kao div-->
+        <span>testing</span> style margin, <span style="display: block">paddings</span> and borders
+    </div>
     <table style="width: 100%">
       <tr>
         <th title="Do you want to regression testing?"><a href=#regression>Regression testing</a></th>
@@ -134,13 +142,15 @@
     </p>
 
     <!--lista, ul su kolone bez-->
-    <ul style="text-align: center">
+    <ul>
       <li style="color:green">Regression testing</li>
       <li style="color:red">Load testing</li>
-      <ol>
-        <li>JMeter tool</li>
-        <li>OWASP zip</li>
-      </ol>
+        <li>
+          <ol>
+            <li>JMeter tool</li>
+            <li>OWASP zip</li>
+          </ol>
+        </li>
       <li style="color:darkgoldenrod">Smoke testing</li>
     </ul>
     <hr>
@@ -157,7 +167,7 @@
         est nulla vidisse intellegat eu.
     </p>
 
-    <ol style="text-align: center;">
+    <ol>
       <li>Regression testing</li>
       <li>Load testing</li>
         <ol>
