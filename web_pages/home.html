@@ -1,12 +1,12 @@
 <!DOCTYPE html>
+
 <html>
-    <head>
+<head>
     <!--meta tag-->
-        <meta charset="UTF-8">
-        <title>QA Home page</title>
-        <link rel="icon" href="../images/milos.jpg" type="image/jpg" sizes="16x16"></link> 
-        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-   
+    <meta charset="UTF-8">
+    <title>QA Home page</title>
+    <link rel="icon" href="../images/milos.jpg" type="image/jpg" sizes="16x16"></link> 
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
    <style> 
         /*ako imamo prazan space na ivicama nase strane, koristimo maring 0 za ceo body 
         i stavio sam background za celu page*/
@@ -65,63 +65,62 @@
         }
     </style>
     </head>
-        <body>
-            <header><h1>Testing &#9824;</h1></header>
-        <!--od liste sam napravio navigation menu-->
-            <div>
-                <nav>
-                    <ul>
-                        <li><a href="./home.html">Home</a></li>
-                        <li><a href="./index.html">Index</a></li>
-                        <li> <a href="./Master.html">Master</a></li>
-                        <li><a href="./contact.html">Contact</a></li>
-                        <li><a href="./About.html">About</a></li>
-                    </ul>   
-                </nav>
-            </div>
-        <!--article...-->
-            <article>
-            <h1 style="text-align: center">Are you ready?</h1>
-                <p>
-                Lorem ipsum dolor sit amet, eu iusto deserunt has. In postulant conclusionemque pri, id duo oporteat
-                apeirian,est nulla vidisse intellegat eu. Habemus deserunt democritum sed cu, vix sumo vide harum ex, 
-                in vocibus legendos mel. Te facilis accusam mea.
-                </p>
-            </article>
-        <!--forma..-->
-            <form>
-                <h3 style="text-align: center">If you want to test with us, please populate form</h3>
-                First name:<br>
-                <input type="text" name="firstname">
-                <br>
-                Last name:<br>
-                <input type="text" name"last name"><br>
-                <br><br>
-                <input type="radio" name="gender" value="Male" checked>Male<br>
-                <input type="radio" name="gender" value="Female">Female<br>
-                <br><br>
-                <select name="cards">
-                <option value="Regression">Regression</option>
-                <option value="Load">Load</option>
-                <option value="Stress">Strees</option>
-                <option value="Smoke">Smoke</option>
-                </select>
-                <br><br>
-                <input type="checkbox" name="Project" value="Project">Project<br>
-                <input type="checkbox" name="Unit test" value="Unit">Unit test<br>
-                <!--2 puta br stvara veci prostor izmedju elemenata-->
-                <br><br>
-                <textarea name"message" placeholder="Additional note" style="width:300px; height: 100px;"></textarea>
-                <br><br>
-                <!--submit je button a reset je input koji izgleda kao button, nema razlike na frontu, ima samo u kodu-->
-                <button type="button" onclick="alert('Hello QA!')">Submit</button>
-                <input type="reset"></input>
-                <p>Populate fileds and click on next</p>
-            </form>
-        <img src="../images/pre.jpg" alt="sorry,image is broken" width="100%">
-           <div>
-                <p>Lorem ipsum dolor sit amet, eu iusto deserunt has. In postulant conclusionemque pri, id duo oporteat apeirian,est nulla vidisse intellegat eu. Habemus deserunt democritum sed cu, vix sumo vide harum ex,  in vocibus legendos mel. Te facilis accusam mea.Lorem ipsum dolor sit amet, eu iusto deserunt has. In postulant conclusionemque pri, id duo oporteat apeirian,est nulla vidisse intellegat eu. Habemus deserunt democritum sed cu, vix sumo vide harum ex,  in vocibus legendos mel. Te facilis accusam mea.Lorem ipsum dolor sit amet, eu iusto deserunt has. In postulant conclusionemque pri, id duo oporteat apeirian,est nulla vidisse intellegat eu. Habemus deserunt democritum sed cu, vix sumo vide harum ex,  in vocibus legendos mel. Te facilis accusam mea.Lorem ipsum dolor sit amet, eu iusto deserunt has. In postulant conclusionemque pri, id duo oporteat apeirian,est nulla vidisse intellegat eu. Habemus deserunt democritum sed cu, vix sumo vide harum ex,  in vocibus legendos mel. Te facilis accusam mea.Lorem ipsum dolor sit amet, eu iusto deserunt has. In postulant conclusionemque pri, id duo oporteat apeirian,est nulla vidisse intellegat eu. Habemus deserunt democritum sed cu, vix sumo vide harum ex, </p>
-            </div>
-            <footer>Copyright &copy; W3Schools.com</footer>
-        </body>
+<body> 
+    <header><h1>Testing &#9824;</h1></header>
+    <!--od liste sam napravio navigation menu-->
+    <div>
+        <nav>
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./index.html">Index</a></li>
+                <li> <a href="./Master.html">Master</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./About.html">About</a></li>
+            </ul>   
+        </nav>
+    </div>
+    <!--article...-->
+    <article>
+    <h1 style="text-align: center">Are you ready?</h1>
+        <p>Lorem ipsum dolor sit amet, eu iusto deserunt has. In postulant conclusionemque pri, id duo oporteat
+        apeirian,est nulla vidisse intellegat eu. Habemus deserunt democritum sed cu, vix sumo vide harum ex, 
+        in vocibus legendos mel. Te facilis accusam mea.
+        </p>
+    </article>
+    <!--forma..-->
+    <form>
+        <h3 style="text-align: center">If you want to test with us, please populate form</h3>
+        First name:<br>
+        <input type="text" name="firstname" required>
+        <br>
+        Last name:<br>
+        <input type="text" name"last name" required><br>
+        <br><br>
+        <input type="radio" name="gender" value="Male" checked>Male<br>
+        <input type="radio" name="gender" value="Female">Female<br>
+        <br><br>
+        <select name="cards">
+        <option value="Regression">Regression</option>
+        <option value="Load">Load</option>
+        <option value="Stress">Strees</option>
+        <option value="Smoke">Smoke</option>
+        </select>
+        <br><br>
+        <input type="checkbox" name="Project" value="Project">Project<br>
+        <input type="checkbox" name="Unit test" value="Unit">Unit test<br>
+        <!--2 puta br stvara veci prostor izmedju elemenata-->
+        <br><br>
+        <textarea name"message" placeholder="Additional note" style="width:300px; height: 100px;"></textarea>
+        <br><br>
+        <!--submit je button a reset je input koji izgleda kao button, nema razlike na frontu, ima samo u kodu-->
+        <button type="button" onclick="alert('Hello QA!')">Submit</button>
+        <input type="reset"></input>
+        <p>Fill out all fileds and click on Submit button</p>
+    </form>
+    <img src="../images/pre.jpg" alt="sorry,image is broken" width="100%">
+    <div>
+        <p>Lorem ipsum dolor sit amet, eu iusto deserunt has. In postulant conclusionemque pri, id duo oporteat apeirian,est nulla vidisse intellegat eu. Habemus deserunt democritum sed cu, vix sumo vide harum ex,  in vocibus legendos mel. Te facilis accusam mea.Lorem ipsum dolor sit amet, eu iusto deserunt has. In postulant conclusionemque pri, id duo oporteat apeirian,est nulla vidisse intellegat eu. Habemus deserunt democritum sed cu, vix sumo vide harum ex,  in vocibus legendos mel. Te facilis accusam mea.Lorem ipsum dolor sit amet, eu iusto deserunt has. In postulant conclusionemque pri, id duo oporteat apeirian,est nulla vidisse intellegat eu. Habemus deserunt democritum sed cu, vix sumo vide harum ex,  in vocibus legendos mel. Te facilis accusam mea.Lorem ipsum dolor sit amet, eu iusto deserunt has. In postulant conclusionemque pri, id duo oporteat apeirian,est nulla vidisse intellegat eu. Habemus deserunt democritum sed cu, vix sumo vide harum ex,  in vocibus legendos mel. Te facilis accusam mea.Lorem ipsum dolor sit amet, eu iusto deserunt has. In postulant conclusionemque pri, id duo oporteat apeirian,est nulla vidisse intellegat eu. Habemus deserunt democritum sed cu, vix sumo vide harum ex, </p>
+    </div>
+    <footer>Copyright &copy; W3Schools.com</footer>
+</body>
 </html>
